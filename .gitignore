@@ -1,0 +1,50 @@
+# Ignore everything by default
+*
+
+# Include specific file types
+!*.py
+!*.md
+!*.sh
+!*.yml
+!*.yaml
+!*.txt
+!*.json
+!*.toml
+!*.cfg
+!*.ini
+
+# Include important configuration files
+!.gitignore
+!.bashrc
+!.github/
+!.github/**
+
+# Exclude common directories and files to ignore
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.Python
+**/*.so
+**/*.egg
+**/*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments (but keep requirements.txt)
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
