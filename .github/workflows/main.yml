@@ -30,4 +30,4 @@ jobs:
       run: ruff check main.py
 
     - name: Run pytest
-      run: pytest main.py -v
+      run: pytest test.py -v
